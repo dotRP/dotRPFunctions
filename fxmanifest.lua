@@ -13,7 +13,8 @@ client_script {
     'client/traffic.lua', --Modifies Traffic
     'client/speed.lua', --Global Speed Hardcap
     'client/deadfinder.lua', --Body helper when you are dead
-    'client/PEDYeeter.lua' --Removed peds from locations
+    'client/pedyeeter.lua',
+    'client/caryeeter.lua' --Removed peds from locations
 }
 
 server_scripts {

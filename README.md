@@ -68,3 +68,5 @@ TheIndra
 Sebastiannn19
 [PedYeeter](https://forum.cfx.re/t/help-remove-peds-in-a-specific-location/88388)
 hypr9xa
+[Car yeeter](https://forum.cfx.re/t/release-model-blacklist-v1-1/7574/19)
+pongo1231

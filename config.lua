@@ -94,6 +94,7 @@ Train_Disable_Doors = false, --Should doors be disabled on trams, they are nicel
 Find_Me_Key = "G", --Def key in ESX --Not convinced this is the right list https://docs.fivem.net/docs/game-references/controls/#controls ~:Runs https://docs.fivem.net/natives/?_0xAAA34F8A7CB32098
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 --Ped Yeeter
+--TODO THIS JUST DOESNT WORK LOL P SURE IM PASSING CORDS THROUGH WRONG
 --FILE
 --Client/PEDYeeter.lua
 --Desc
@@ -104,12 +105,22 @@ Find_Me_Key = "G", --Def key in ESX --Not convinced this is the right list https
 Locations_To_Yeet_Peds = {
     {-1081.1343, -851.0659, 10.0833,400,1}, --VSPD
     {974.6524, -120.8047, 74.2922,300,1}    --LOST MC
-    }
+    },
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+--CAR YEETER
+--FILE
+--client/caryeeter.lua
+--Desc
+--This should yeet cars that you don't wan't spawning, will also yeet cars if humans are in them.
 
 
-
-
-
+carblacklist{
+    "rhino",
+    "police",
+    "police2",
+    "police3",
+    "police4",
+}
 
 
 
