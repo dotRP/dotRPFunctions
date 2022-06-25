@@ -45,27 +45,27 @@ Debug = true,
 Speedo_Math = 2.23694, --THIS SETS TO TO MPH
 --"3.6" IF YOU USE KP/H
 
-Class_Compacts_Maxspeed = 140, --Class 0
-Class_Sedan_Maxspeed = 140, --Class 1
-Class_SUV_Maxspeed = 110, --Class 2
-Class_Coupes_Maxspeed = 130, --Class 3
+Class_Compacts_Maxspeed = 150, --Class 0
+Class_Sedan_Maxspeed = 150, --Class 1
+Class_SUV_Maxspeed = 169, --Class 2
+Class_Coupes_Maxspeed = 150, --Class 3
 Class_Muscle_Maxspeed = 160, --Class 4
 Class_SportsClassic_Maxspeed = 170, --Class 5
 Class_Sports_Maxspeed = 180, --Class 6
 Class_Super_Maxspeed = 190, --Class 7
 Class_Motorcycle_Maxspeed = 150, --Class 8
-Class_Offroad_Maxspeed = 140, --Class 9
-Class_Industrial_Maxspeed = 80, --Class 10
-Class_Utility_Maxspeed = 80, --Class 11
-Class_Vans_Maxspeed = 140, --Class 12
-Class_Cycles_Maxspeed = 30, --Class 13
+Class_Offroad_Maxspeed = 180, --Class 9
+Class_Industrial_Maxspeed = 150, --Class 10
+Class_Utility_Maxspeed = 150, --Class 11
+Class_Vans_Maxspeed = 150, --Class 12
+Class_Cycles_Maxspeed = 150, --Class 13
 Class_Boats_Maxspeed = 80 ,--Class 14
 Class_Helicopters_Maxspeed= -1, --DEF 300 --Class 15
 Class_Planes_Maxspeed = -1, --DEF 300 --Class 16
-Class_Service_Maxspeed = 140, --Class 17
+Class_Service_Maxspeed = 150, --Class 17
 Class_Emergency_Maxspeed = -1,--DEF 150 --Class 18
-Class_Military_Maxspeed = 140, --Class 19
-Class_Commercial_Maxspeed = 140, --Class 20
+Class_Military_Maxspeed = 150, --Class 19
+Class_Commercial_Maxspeed = 150, --Class 20
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -106,22 +106,21 @@ Locations_To_Yeet_Peds = {
     {-1081.1343, -851.0659, 10.0833,400,1}, --VSPD
     {974.6524, -120.8047, 74.2922,300,1}    --LOST MC
     },
------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+--ends confif init line-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 --CAR YEETER
 --FILE
 --client/caryeeter.lua
 --Desc
 --This should yeet cars that you don't wan't spawning, will also yeet cars if humans are in them.
-
-
-carblacklist{
-    "rhino",
-    "police",
-    "police2",
-    "police3",
-    "police4",
-}
-
+--carblacklist{
+--    "rhino",
+--    "police",
+ --   "police2",
+--    "police3",
+ --  "police4",
+--}
 
 
 
@@ -131,6 +130,4 @@ carblacklist{
 
 
 
-
-
-} --ends confif init line
+} 
