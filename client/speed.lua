@@ -7,7 +7,7 @@ Citizen.CreateThread( function()
 		local class = GetVehicleClass(vehicle)
 		local vehicleModel = GetEntityModel(vehicle)
 		if Config.Debug then
-		print('Car Class is '..class)	
+		--print('Car Class is '..class)	
 		end
 		--
 		--print(Config.Class_Compacts_Maxspeed)
