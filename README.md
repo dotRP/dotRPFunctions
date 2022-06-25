@@ -6,8 +6,11 @@ Speed - Allows you to set a hard speed cap on vehicles
 Train - Turns Trains on and off
 Traffic - Sets ped spawn rates
 ---
+TODO TEST
+DeadFinder --encase you are lost in the void(EMS Cant see you)
+
 TODO
-NotDead --encase you are lost in the void(EMS Cant see you)
+
 StopPeds -- Stop Certain peds from spawning
 StopCars -- Stops Certain vehicles from spawning (most of the time)
 
@@ -57,7 +60,9 @@ Must be a INT! -- This means the number must be a whole number!
 --DEF 300
 ________________________________________________________________
 Thanks to
-<https://forum.cfx.re/t/global-speed-limit/3419586/3> [Speed]
+[Speed](https://forum.cfx.re/t/global-speed-limit/3419586/3)
 Cuchii, Liden, _Babayaga
-<https://forum.cfx.re/t/ai-trains-in-fivem/1303817> [Trains]
+[Trains](https://forum.cfx.re/t/ai-trains-in-fivem/1303817)
 TheIndra
+[DeadFinder](https://forum.cfx.re/t/solved-ems-does-not-see-the-dead-body/1211508/2)
+Sebastiannn19

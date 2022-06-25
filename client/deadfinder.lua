@@ -9,6 +9,9 @@ Citizen.CreateThread(function()
     while true do
         Wait(0)
         if IsControlPressed(0, Keys[Config.Find_Me_Key]) and isDead then
+            if Config.Debug then
+                print('Ped Helper Fired')
+            end
             ClearPedTasksImmediately(GetPlayerPed(-1))
             CurrentAction = nil   
         end

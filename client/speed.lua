@@ -6,7 +6,10 @@ Citizen.CreateThread( function()
 		local currentcarspeed = GetEntitySpeed(vehicle)
 		local class = GetVehicleClass(vehicle)
 		local vehicleModel = GetEntityModel(vehicle)
-		--print(class)
+		if Config.Debug then
+		print('Car Class is '..class)	
+		end
+		--
 		--print(Config.Class_Compacts_Maxspeed)
 		--print('uwu')
         if class == 0 and Config.Class_Compacts_Maxspeed ~= -1
