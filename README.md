@@ -2,6 +2,15 @@
 
 This is a collection of useful FiveM Functions we are using in our server, as configurable as we can make stuff
 
+Speed - Allows you to set a hard speed cap on vehicles
+Train - Turns Trains on and off
+Traffic - Sets ped spawn rates
+---
+TODO
+NotDead --encase you are lost in the void(EMS Cant see you)
+StopPeds -- Stop Certain peds from spawning
+StopCars -- Stops Certain vehicles from spawning (most of the time)
+
 
 
 
@@ -37,7 +46,8 @@ This will be in the files just above the config changes
 
 ***Inline Comments***
 **Natives**
-~:Sets "We use this in the config file to denote what native is set where applicable"
+~:Sets "Used in config for what native is set"
+~:Runs "Used in config for what native is called"
 
 **Must be**
 Must be a float! -- This means the number must have a decimal place, IE 1.0

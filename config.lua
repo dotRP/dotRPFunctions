@@ -2,7 +2,7 @@
 --TODO ADD HEADER
 
 Config = { --Inits stuff
----------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 --Traffic and Ped Levels
 --FILE
 --client/Traffic.lua
@@ -18,9 +18,11 @@ Config = { --Inits stuff
                                 -- 10.0 is up to ten times the ammount!
 --NOTE: FiveM Docs say this is a max of 1.0, but setting them higher seems to increase stuff so YMMV.
 --It seems to be effected by the sever power though
--------------------------------------------
---Speed Limits
---FILE client/Speed.lua
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--SPEED LIMITER
+--FILE
+--client/Speed.lua
 
 --Desc
 --The sets the speedlimits for vechs
@@ -64,16 +66,30 @@ Class_Military_Maxspeed = 120, --Class 19
 Class_Commercial_Maxspeed = 120, --Class 20
 
 
-----------------------------------------------
---Trains
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+--TRAINS
+--File
+--Client/Trains.lua
+--Desc
+--Makes trains happen
 Freight_Trains = true, --Should Freight Trains Exsist! true/false must be in lowercase  --Im not 100% sure how accurate the docs are on this one! ~:Sets https://docs.fivem.net/natives/?_0xFD813BB7DB977F20
 Tram_Trains = true, --Should Trams Exsist! true/false must be in lowercase ~:Sets https://docs.fivem.net/natives/?_0xFD813BB7DB977F20
 Train_Spawn_Freq = 100000, --How Often should trains spawn, Smaller number more trains 20000 is lowest you wanna go ~:Sets https://docs.fivem.net/natives/?_0x21973BBF8D17EDFA
 Train_Count = 10, --How Many trains should exist (kinda) 10 is a good number ~:Sets https://docs.fivem.net/natives/?_0x80D9F74197EA47D9
 Train_Disable_Doors = false, --Should doors be disabled on trams, they are nicely ridable in our working ~:Sets https://docs.fivem.net/natives/?_0xD4D1BA63
----------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+--NOTDEAD
+--FILE
+--Client/DeadFinder.lua
+--Desc
+--This runs a task to update your ped if EMS Cant see you
+--IMPORTANT
+--ESX ONLY
+--This needs to be linked to a keybind that is active when you are dead!
+--SUGGESTION
+--Use the same keybind as you use to PING EMS, Should update ped on First ping to
 
-
+Find_Me_Key = "G" --Def key in ESX --Not convinced this is the right list https://docs.fivem.net/docs/game-references/controls/#controls ~:Runs https://docs.fivem.net/natives/?_0xAAA34F8A7CB32098
 
 
 
