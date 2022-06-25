@@ -100,11 +100,26 @@ Find_Me_Key = "G", --Def key in ESX --Not convinced this is the right list https
 --This blocks peds from spaawning in the given locations
 --Info
 --Syntax is X Y Z RAD 1
-
+-- ~:Runs https://docs.fivem.net/natives/#_0x0A1CB9094635D1A6
 Locations_To_Yeet_Peds = {
     {-1081.1343, -851.0659, 10.0833,400,1}, --VSPD
-    {974.6524, -120.8047, 74.2922,200,1}    --LOST MC
+    {974.6524, -120.8047, 74.2922,300,1}    --LOST MC
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 } --ends confif init line

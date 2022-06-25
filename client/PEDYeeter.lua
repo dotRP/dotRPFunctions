@@ -1,5 +1,6 @@
+Citizen.CreateThread(function()
 while true do
-    Citizen.Wait(30000)
+    Citizen.Wait(10000)
     for i, location in ipairs(Config.Locations_To_Yeet_Peds) do
         ClearAreaOfCops(location)
         if Config.Debug then
@@ -11,4 +12,4 @@ while true do
         end  
     end
 end
-
+end)

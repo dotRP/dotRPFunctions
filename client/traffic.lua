@@ -9,7 +9,7 @@ Citizen.CreateThread(function()
         SetParkedVehicleDensityMultiplierThisFrame(Config.Parked_Vech_Multiplier)
         SetVehicleDensityMultiplierThisFrame(Config.Road_Vech_Multiplier)
         if Config.Debug then
-            print('Foot Peds '..Foot_Peds_Multiplier..' Ped Variety '..Config.Foot_Peds_Multiplier..' Rand Vechs '..Config.Rand_Vech_Multiplier..' Parked Car '..Config.Parked_Vech_Multiplier..' Traffic '..Config.Road_Vech_Multiplier)
+            print('Foot Peds '..Config.Foot_Peds_Multiplier..' Ped Variety '..Config.Foot_Peds_Multiplier..' Rand Vechs '..Config.Rand_Vech_Multiplier..' Parked Car '..Config.Parked_Vech_Multiplier..' Traffic '..Config.Road_Vech_Multiplier)
         end
     end 
 end)

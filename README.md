@@ -66,3 +66,5 @@ Cuchii, Liden, _Babayaga
 TheIndra
 [DeadFinder](https://forum.cfx.re/t/solved-ems-does-not-see-the-dead-body/1211508/2)
 Sebastiannn19
+[PedYeeter](https://forum.cfx.re/t/help-remove-peds-in-a-specific-location/88388)
+hypr9xa

@@ -3,7 +3,7 @@ games {'gta5'}
 
 author 'dotRP <DevTeam@dotroleplay.com> Mach & Onyx'
 description 'This contains a set of helpful functions'
-version '0.0.1'
+version '0.0.5'
 --Nomral Init crap ^
 -----------------------------------------------------------------------------------------
 
