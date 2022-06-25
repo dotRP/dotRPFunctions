@@ -9,14 +9,12 @@ version '0.0.1'
 
 -- Please Load Client Scripts
 client_script {
-    'config.lua', --Config File
     'client/train.lua', --Loads Trains
     'client/traffic.lua' --Modifies Traffic
 }
 
 server_scripts {
-    'config.lua', --Config File
     'server/server.lua'
 }
 
-
+shared_script 'config.lua'
