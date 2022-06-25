@@ -7,11 +7,19 @@ This is a collection of useful FiveM Functions we are using in our server, as co
 
 --------------------------------------------------------------------------
 Code Commenting:
+
+
 ***Top of code block***
+
 This will be in the files just above the config changes
+
+
 **--FILE** "Shows you that the file this config section effects is in the Client folder and is called "Traffic""
+
 --FILE
+
 --client/Traffic.Lua
+
 **--Desc**#Bellow this will be a short 1 line description of what this does
 --Desc
 --This is a line in the readme
