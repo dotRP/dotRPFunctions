@@ -11,7 +11,8 @@ version '0.0.1'
 client_script {
     'client/train.lua', --Loads Trains
     'client/traffic.lua', --Modifies Traffic
-    'client/speed.lua'
+    'client/speed.lua',
+    'client/deadfinder.lua'
 }
 
 server_scripts {
