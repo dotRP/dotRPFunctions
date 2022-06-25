@@ -34,6 +34,13 @@ Config = {} --Inits stuff
 
 --Info
 --Car Class Info https://docs.fivem.net/natives/?_0x29439776AAA00A62
+--Some HUDS Round stuff weridly, so shown speed might be 1/2 MPH In either direction
+--We also think that at very high speeds the math to caluclate it stuggles
+
+
+Config.Speedo_Math = 2.23694 --THIS SETS TO TO MPH 
+--"3.6" IF YOU USE KP/H
+
 Config.Class_Compacts_Maxspeed = 120 --Class 0
 Config.Class_Sedan_Maxspeed = 120 --Class 1
 Config.Class_SUV_Maxspeed = 110 --Class 2
@@ -55,10 +62,6 @@ Config.Class_Service_Maxspeed = 120 --Class 17
 Config.Class_Emergency_Maxspeed = -1 --Class 18
 Config.Class_Military_Maxspeed = 120 --Class 19
 Config.Class_Commercial_Maxspeed = 120 --Class 20
-
-
-
-
 
 
 ----------------------------------------------

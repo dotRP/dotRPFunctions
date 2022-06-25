@@ -34,3 +34,9 @@ This will be in the files just above the config changes
 **Must be**
 Must be a float! -- This means the number must have a decimal place, IE 1.0
 Must be a INT! -- This means the number must be a whole number!
+________________________________________________________________
+Thanks to
+<https://forum.cfx.re/t/global-speed-limit/3419586/3> [Speed]
+Cuchii, Liden, _Babayaga
+<https://forum.cfx.re/t/ai-trains-in-fivem/1303817> [Trains]
+TheIndra
