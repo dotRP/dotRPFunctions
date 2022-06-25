@@ -34,6 +34,9 @@ This will be in the files just above the config changes
 **Must be**
 Must be a float! -- This means the number must have a decimal place, IE 1.0
 Must be a INT! -- This means the number must be a whole number!
+
+**--DEF** This is what the default recommended values are! /n
+--DEF 300
 ________________________________________________________________
 Thanks to
 <https://forum.cfx.re/t/global-speed-limit/3419586/3> [Speed]

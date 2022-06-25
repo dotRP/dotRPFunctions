@@ -56,10 +56,10 @@ Class_Utility_Maxspeed = 80, --Class 11
 Class_Vans_Maxspeed = 120, --Class 12
 Class_Cycles_Maxspeed = 30, --Class 13
 Class_Boats_Maxspeed = 80 ,--Class 14
-Class_Helicopters_Maxspeed= -1, --300 --Class 15
-Class_Planes_Maxspeed = -1, --300 --Class 16
+Class_Helicopters_Maxspeed= -1, --DEF 300 --Class 15
+Class_Planes_Maxspeed = -1, --DEF 300 --Class 16
 Class_Service_Maxspeed = 120, --Class 17
-Class_Emergency_Maxspeed = -1, --Class 18
+Class_Emergency_Maxspeed = -1,--DEF 150 --Class 18
 Class_Military_Maxspeed = 120, --Class 19
 Class_Commercial_Maxspeed = 120, --Class 20
 
