@@ -19,14 +19,14 @@ function checkCar(car)
 		carModel = GetEntityModel(car)
 		carName = GetDisplayNameFromVehicleModel(carModel)
 
-		if isConfig.carblacklisted(carModel) then
+		if iscarblacklisted(carModel) then
 			_DeleteEntity(car)
 			sendForbiddenMessage("This vehicle is blacklisted!")
 		end
 	end
 end
 
-function isConfig.carblacklisted(model)
+function iscarblacklisted(model)
 	for _, blacklistedCar in pairs(Config.carblacklist) do
 		if model == GetHashKey(blacklistedCar) then
 			return true

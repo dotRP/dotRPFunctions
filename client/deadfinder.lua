@@ -13,7 +13,7 @@ Citizen.CreateThread(function()
                 print('Ped Helper Fired')
             end
             ClearPedTasksImmediately(GetPlayerPed(-1))
-            CurrentAction = nil   
+            CurrentAction = nil
         end
     end
 end)
