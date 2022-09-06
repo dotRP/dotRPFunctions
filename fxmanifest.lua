@@ -14,11 +14,14 @@ client_script {
     'client/speed.lua', --Global Speed Hardcap
     'client/deadfinder.lua', --Body helper when you are dead
     'client/pedyeeter.lua',
-    'client/caryeeter.lua' --Removed peds from locations
+    'client/discordrp.lua',
+    'client/infoevents.lua'
+    
 }
 
 server_scripts {
-    'server/server.lua'
+    'server/server.lua',
+    --'server/caritemyeet.lua' --Removed Peds, cars, items 
 }
 
 shared_script 'config.lua'

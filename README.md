@@ -1,5 +1,12 @@
 # dotRPFunctions
 
+
+> We have decieded to move this to tebex and the final free update will be 06 09 2022
+
+
+
+
+
 This is a collection of useful FiveM Functions we are using in our server, as configurable as we can make stuff
 
 Speed - Allows you to set a hard speed cap on vehicles
